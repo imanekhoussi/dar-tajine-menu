@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dar Tajine - Menu Digital</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header class="header">
+            <div class="restaurant-logo">🏺</div>
+            <h1>Dar Tajine</h1>
+            <p>Cuisine Marocaine Authentique</p>
+        </header>
+
+        <!-- Navigation Categories -->
+        <nav class="category-nav">
+            <div class="category-buttons">
+                <button class="category-btn active" data-category="entrees">🥗 Entrées</button>
+                <button class="category-btn" data-category="tagines">🍖 Tagines</button>
+                <button class="category-btn" data-category="couscous">🍚 Couscous</button>
+                <button class="category-btn" data-category="grillades">🥩 Grillades</button>
+                <button class="category-btn" data-category="desserts">🍰 Desserts</button>
+                <button class="category-btn" data-category="boissons">☕ Boissons</button>
+            </div>
+        </nav>
+
+        <!-- Menu Content -->
+        <main class="menu-content">
+            <!-- Entrées Section -->
+            <section class="category-section active" id="entrees">
+                <h2 class="section-title">Entrées</h2>
+                
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/salade-marocaine.jpg');">
+                        🥗
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Salade Marocaine</h3>
+                            </div>
+                            <div class="item-price">35 DHS</div>
+                        </div>
+                        <p class="item-description">Salade fraîche aux tomates, concombres, poivrons, oignons rouges avec vinaigrette à l'huile d'olive et citron</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/pastilla.jpeg');">
+                        🥟
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Pastilla au Pigeon</h3>
+                            </div>
+                            <div class="item-price">65 DHS</div>
+                        </div>
+                        <p class="item-description">Feuilleté traditionnel au pigeon, amandes, œufs et épices, saupoudré de cannelle et sucre glace</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/briouates.jpg');">
+                        🥟
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Briouates aux Légumes</h3>
+                            </div>
+                            <div class="item-price">28 DHS</div>
+                        </div>
+                        <p class="item-description">Petits triangles de pâte filo farcis aux légumes de saison, frits et dorés à la perfection</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tagines Section -->
+            <section class="category-section" id="tagines">
+                <h2 class="section-title">Tagines</h2>
+                
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/tagine-agneau.jpg');">
+                        🍖
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Tagine d'Agneau aux Pruneaux</h3>
+                            </div>
+                            <div class="item-price">85 DHS</div>
+                        </div>
+                        <p class="item-description">Agneau mijoté aux pruneaux, amandes, miel et cannelle, accompagné de légumes de saison</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/tagine-poulet.jpg');">
+                        🐔
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Tagine de Poulet aux Olives</h3>
+                            </div>
+                            <div class="item-price">75 DHS</div>
+                        </div>
+                        <p class="item-description">Poulet fermier aux olives vertes, citron confit, gingembre et safran dans sa sauce onctueuse</p>
+                        <div class="item-tags">
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/tagine-boeuf.jpg');">
+                        🥩
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Tagine de Bœuf aux Légumes</h3>
+                            </div>
+                            <div class="item-price">80 DHS</div>
+                        </div>
+                        <p class="item-description">Bœuf tendre mijoté avec carottes, pommes de terre, courgettes et petits pois dans un bouillon parfumé</p>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/tagine-poisson.jpg');">
+                        🐟
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Tagine de Poisson aux Légumes</h3>
+                            </div>
+                            <div class="item-price">90 DHS</div>
+                        </div>
+                        <p class="item-description">Poisson frais du jour aux tomates, poivrons, pommes de terre et herbes fraîches</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Couscous Section -->
+            <section class="category-section" id="couscous">
+                <h2 class="section-title">Couscous</h2>
+                
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/couscous-royal.jpeg');">
+                        🍚
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Couscous Royal</h3>
+                            </div>
+                            <div class="item-price">95 DHS</div>
+                        </div>
+                        <p class="item-description">Couscous traditionnel avec agneau, poulet, merguez et légumes variés dans un bouillon savoureux</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/couscous-legumes.jpeg');">
+                        🥕
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Couscous aux Légumes</h3>
+                            </div>
+                            <div class="item-price">70 DHS</div>
+                        </div>
+                        <p class="item-description">Couscous avec sept légumes de saison mijotés dans un bouillon parfumé aux épices</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/couscous-poulet.jpeg');">
+                        🐔
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Couscous au Poulet</h3>
+                            </div>
+                            <div class="item-price">75 DHS</div>
+                        </div>
+                        <p class="item-description">Couscous avec poulet fermier et légumes frais, accompagné de bouillon épicé</p>
+                        <div class="item-tags">
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Grillades Section -->
+            <section class="category-section" id="grillades">
+                <h2 class="section-title">Grillades</h2>
+                
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/kefta-grille.jpg');">
+                        🍖
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Kefta Grillée</h3>
+                            </div>
+                            <div class="item-price">65 DHS</div>
+                        </div>
+                        <p class="item-description">Brochettes de viande hachée aux herbes fraîches, grillées au feu de bois, servies avec salade</p>
+                        <div class="item-tags">
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/brochettes-agneau.jpg');">
+                        🍢
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Brochettes d'Agneau</h3>
+                            </div>
+                            <div class="item-price">85 DHS</div>
+                        </div>
+                        <p class="item-description">Cubes d'agneau marinés aux épices marocaines, grillés à la perfection avec légumes</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/poisson-grille.jpg');">
+                        🐟
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Poisson Grillé</h3>
+                            </div>
+                            <div class="item-price">95 DHS</div>
+                        </div>
+                        <p class="item-description">Poisson frais du jour grillé aux herbes et citron, accompagné de légumes grillés</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Desserts Section -->
+            <section class="category-section" id="desserts">
+                <h2 class="section-title">Desserts</h2>
+                
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/chebakia.jpeg');">
+                        🍯
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Chebakia</h3>
+                            </div>
+                            <div class="item-price">25 DHS</div>
+                        </div>
+                        <p class="item-description">Pâtisserie traditionnelle en forme de rose, frite et enrobée de miel et graines de sésame</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/cornes-gazelle.jpg');">
+                        🌙
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Cornes de Gazelle</h3>
+                            </div>
+                            <div class="item-price">30 DHS</div>
+                        </div>
+                        <p class="item-description">Pâtisseries en forme de croissant farcies à la pâte d'amande parfumée à la fleur d'oranger</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/makroudh.jpeg');">
+                        🥮
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Makroudh</h3>
+                            </div>
+                            <div class="item-price">20 DHS</div>
+                        </div>
+                        <p class="item-description">Gâteau de semoule fourré aux dattes et parfumé à la fleur d'oranger, nappé de miel</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/mousse-chocolat.jpeg');">
+                        🍫
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Mousse au Chocolat</h3>
+                            </div>
+                            <div class="item-price">35 DHS</div>
+                        </div>
+                        <p class="item-description">Mousse légère au chocolat noir, décorée d'amandes effilées et menthe fraîche</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Boissons Section -->
+            <section class="category-section" id="boissons">
+                <h2 class="section-title">Boissons</h2>
+                
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/the-menthe.jpeg');">
+                        🍵
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Thé à la Menthe</h3>
+                            </div>
+                            <div class="item-price">15 DHS</div>
+                        </div>
+                        <p class="item-description">Thé vert traditionnel marocain à la menthe fraîche et sucre, servi dans des verres décorés</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                            <span class="tag popular">Populaire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/jus-orange.jpeg');">
+                        🍊
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Jus d'Orange Frais</h3>
+                            </div>
+                            <div class="item-price">20 DHS</div>
+                        </div>
+                        <p class="item-description">Jus d'orange fraîchement pressé, servi avec glaçons et feuille de menthe</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/cafe-marocain.jpg');">
+                        ☕
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Café Marocain</h3>
+                            </div>
+                            <div class="item-price">12 DHS</div>
+                        </div>
+                        <p class="item-description">Café noir corsé aux épices traditionnelles, servi dans une tasse en céramique</p>
+                        <div class="item-tags">
+                            <span class="tag specialite">Spécialité</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/lait-amande.png');">
+                        🥛
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Lait d'Amande</h3>
+                            </div>
+                            <div class="item-price">18 DHS</div>
+                        </div>
+                        <p class="item-description">Lait d'amande fait maison, parfumé à la fleur d'oranger et cannelle, servi frais</p>
+                        <div class="item-tags">
+                            <span class="tag vegetarian">Végétarien</span>
+                            <span class="tag specialite">Maison</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item">
+                    <div class="item-image" style="background-image: url('images/eau-minerale.png');">
+                        💧
+                    </div>
+                    <div class="item-info">
+                        <div class="item-header">
+                            <div>
+                                <h3 class="item-name">Eau Minérale</h3>
+                            </div>
+                            <div class="item-price">8 DHS</div>
+                        </div>
+                        <p class="item-description">Eau minérale locale Sidi Ali ou Sidi Harazem, plate ou gazeuse</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Hours Section -->
+        <div class="hours-special">
+            <h4>🕐 Horaires d'Ouverture</h4>
+            <p><strong>Lundi - Dimanche :</strong> 12:00 - 15:00 & 19:00 - 23:00<br>
+            <em>Service continu le vendredi</em></p>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <h3>🏺 Dar Tajine</h3>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <span class="contact-icon">📍</span>
+                    <span>Avenue Mohammed V, Gueliz, Marrakech</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">📞</span>
+                    <span>(+212) 524-44-89-67</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">✉️</span>
+                    <span>contact@dartajine.ma</span>
+                </div>
+                <div class="contact-item">
+                    <span class="contact-icon">🌐</span>
+                    <span>www.dartajine.ma</span>
+                </div>
+            </div>
+            
+            <div class="wifi-info">
+                <strong>🌐 WiFi Gratuit</strong><br>
+                Réseau : <strong>DarTajine_Guest</strong><br>
+                Mot de passe : <strong>tajine2024</strong>
+            </div>
+
+            <div class="moroccan-quote">
+                "أهلا وسهلا بكم في دار الطاجين"<br>
+                <em>Ahlan wa sahlan bikum fi Dar Tajine</em><br>
+                "Bienvenue chez Dar Tajine"
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="./script.js"></script>
+</body>
+</html>
